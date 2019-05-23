@@ -32,7 +32,7 @@ public class ConsoleUtils {
   public static final String PACKAGENAME = "org.fisco.bcos.temp";
 
   public static void printJson(String jsonStr) {
-    System.out.println(formatJson(jsonStr));
+    System.out.println();
   }
 
   public static String formatJson(String jsonStr) {
